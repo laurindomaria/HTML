@@ -1,0 +1,36 @@
+button:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+input:focus {
+    outline: 1px solid orange;
+}
+
+p:first-child{
+    font-weight: bold;
+}
+
+li:last-child {
+    color: red;
+}
+
+tr:nth-child(even) {
+    background-color: paleturquoise;
+}
+
+tr:nth-child(odd) {
+    background-color: plum;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td, th {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+}

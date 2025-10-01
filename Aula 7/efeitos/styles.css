@@ -1,0 +1,53 @@
+button {
+    background-color: blue;
+    color: white;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: darkblue;
+}
+
+@keyframes piscar {
+    0% { opacity: 1;}
+    50% { opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#div1 {
+    background: linear-gradient(to right, red, yellow);
+    width: 100%;
+}
+
+#div2 {
+    background: radial-gradient(circle, blue, white);
+    width: 100%;
+}
+
+div {
+    animation: piscar 2s infinite;
+    width: 100px;
+    height: 100px;
+    background: green;
+    text-align: center;
+    color: white;
+}
+div:hover {
+    transform: translate(20px, 20px);
+}
+
+img:hover {
+    transform: rotate(360deg);
+    transition: transform 0.10s;
+}
+
+button:hover {
+    transform: scale(1.2);
+}*/
+ img:hover {
+    animation: infinito 0.01 linear infinite;
+ }
+ @keyframes infinito {
+    from { transform:rotate(0deg);}
+    to {transform: rotate(360deg);}
+ }
